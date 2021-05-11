@@ -62,11 +62,11 @@ function BigForm({ checkboxes: items = [], ...props }) {
     <div className="form">
       <span>Checked boxes: {checked}</span>
       {checkboxes &&
-        checkboxes.map(({ name, checked }, index) => {
+        checkboxes.map(({ name, label, checked }, index) => {
           return (
             <Checkbox
               key={`checkbox-${index}`}
-              label={`Checkbox ${index}`}
+              label={label}
               name={name}
               checked={checked}
               onChange={onCheckBoxHandler(index)}
