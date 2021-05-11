@@ -1,0 +1,34 @@
+D. What kind of language is Javascript? (remember, more than one (or none) options are possible)
+1. Strongly typed
+2. Weakly typed => (Selected)
+3. Dynamic => (Selected)
+4. Prototype based => (Selected)
+5. Functional => (Selected)
+6. Static
+7. Structured => (Selected)
+
+E. Mark which of the following characteristics Javascript presents
+1. Polymorphism => (Selected)
+2. Inheritance => (Selected)
+3. Encapsulation => (Selected)
+4. Dynamic binding (The ability to switch an object’s method at runtime) => (Selected)
+5. Open recursion (Characteristic that implies that the “this” reference is dynamically bound) => (Selected)
+
+F. Is Javascript Object Oriented?
+1. Yes => (Selected)
+2. No
+
+Briefly describe why: It is because it has the three fundamental pillars to be considered an object-oriented language, which are: inheritance, encapsulation and polymorphism.
+
+G. What does a closure allow in Javascript?
+1. Encapsulating code inside the scope of a function. => (Selected)
+2. Allows declared variables to be accessible inside child scopes and inaccessible from parent scopes. => (Selected)
+3. Allows declared variables to be accessible inside parent scopes and inaccessible from child scopes.
+4. Currying => (Selected)
+5. Event Bubbling
+
+H. How would you deal with global scope in Javascript?:
+1. Encapsulating components in functions => (Selected)
+2. Using AMD or CommonJS Modules => (Selected)
+3. Putting all the components under a same object
+4. Using global variables
